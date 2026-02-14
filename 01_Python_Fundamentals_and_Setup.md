@@ -83,40 +83,40 @@
 ## **Installing Python (Windows / Linux / Mac)**
 
 - **Python can be downloaded from the official website [python.org](http://python.org).**  
-(*Always download Python from the official website to ensure you get a secure and authentic version.*)
+(*Always download Python from the official website to ensure you get a secure and authentic version.*)  
 - **Always install the latest stable version of Python.**  
-(*Stable version means it has been properly tested and is reliable for regular use and development.*)
+(*Stable version means it has been properly tested and is reliable for regular use and development.*)  
 - **Python installation package includes the interpreter and standard library.**  
-(*When you install Python, you automatically get the program that executes Python code and many built-in modules.*)
+(*When you install Python, you automatically get the program that executes Python code and many built-in modules.*)  
 - **On Windows, download the executable installer (.exe file).**  
-(*Windows users need to download the installer file and run it like normal software installation.*)
+(*Windows users need to download the installer file and run it like normal software installation.*)  
 - **While installing on Windows, select “Add Python to PATH.”**  
-(*This allows you to run Python commands from Command Prompt without manually configuring environment variables.*)
+(*This allows you to run Python commands from Command Prompt without manually configuring environment variables.*)  
 - **After selecting Add to PATH, click “Install Now.”**  
-(*This installs Python with recommended default settings.*)
+(*This installs Python with recommended default settings.*)  
 - **On Windows, verify installation using **`python --version`** in Command Prompt.**  
-(*Open Command Prompt and type the command to confirm Python is properly installed.*)
+(*Open Command Prompt and type the command to confirm Python is properly installed.*)  
 - **On Linux, Python is usually pre-installed.**  
-(*Most Linux distributions already include Python by default.*)
+(*Most Linux distributions already include Python by default.*)  
 - **On Linux, verify installation using **`python3 --version`**.**  
-(*Linux systems typically use the *`python3`* command for Python 3.*)
+(*Linux systems typically use the *`python3`* command for Python 3.*)  
 - **On Linux, Python can be installed using a package manager such as apt.**  
-(*For Ubuntu-based systems, use a command like *`sudo apt install python3`* to install Python.*)
+(*For Ubuntu-based systems, use a command like *`sudo apt install python3`* to install Python.*)  
 - **On macOS, Python may be pre-installed but could be outdated.**  
-(*macOS includes a system version of Python that may not be the latest stable release.*)
+(*macOS includes a system version of Python that may not be the latest stable release.*)  
 - **On macOS, install the latest Python using the .pkg installer from [python.org](http://python.org).**  
-(*Download the package file and follow the installation steps like regular software installation.*)
+(*Download the package file and follow the installation steps like regular software installation.*)  
 - **On macOS, verify installation using **`python3 --version`** in Terminal.**  
-(*Open the Terminal application and type the command to check the installed version.*)
+(*Open the Terminal application and type the command to check the installed version.*)  
 - **Python installation includes the IDLE editor by default.**  
-(*IDLE is a simple built-in editor that allows you to write and execute Python programs.*)
+(*IDLE is a simple built-in editor that allows you to write and execute Python programs.*)  
 - **The PATH environment variable helps the system locate Python.**  
-(*PATH is a system setting that tells the computer where Python is installed so it can be accessed from any directory.*)
+(*PATH is a system setting that tells the computer where Python is installed so it can be accessed from any directory.*)  
 - **Multiple Python versions can exist on the same system.**  
-(*You can install and manage different versions depending on project requirements.*)
+(*You can install and manage different versions depending on project requirements.*)  
 - **Use the **`python3`** command when multiple versions are installed.**  
-(*This prevents confusion between older Python 2 and modern Python 3 versions.*)
+(*This prevents confusion between older Python 2 and modern Python 3 versions.*)  
 - **After installation, Python can run in interactive mode.**  
-(*Typing *`python`* or *`python3`* in the terminal opens an interactive shell where you can execute code line by line.*)
+(*Typing *`python`* or *`python3`* in the terminal opens an interactive shell where you can execute code line by line.*)  
 - **Python installation requires minimal system configuration.**  
-(*It is lightweight and easy to set up compared to many other programming languages.*)
+(*It is lightweight and easy to set up compared to many other programming languages.*)  
