@@ -11,7 +11,8 @@
 > - Indentation and code blocks
 > - Writing your first Python program
 
-## **What is Python? Use Cases & Ecosystem**
+> [!NOTE]
+> ## **What is Python? Use Cases & Ecosystem**
 
 - **Python is a high-level programming language.**  
 (*It is easy to read and write compared to low-level languages like C because it looks similar to English.*)
@@ -94,19 +95,19 @@
 (*This allows you to run Python commands from Command Prompt without manually configuring environment variables.*)  
 - **After selecting Add to PATH, click “Install Now.”**  
 (*This installs Python with recommended default settings.*)  
-- **On Windows, verify installation using **`python --version`** in Command Prompt.**  
+- **On Windows, verify installation using `python --version` in Command Prompt.**  
 (*Open Command Prompt and type the command to confirm Python is properly installed.*)  
 - **On Linux, Python is usually pre-installed.**  
 (*Most Linux distributions already include Python by default.*)  
-- **On Linux, verify installation using **`python3 --version`**.**  
-(*Linux systems typically use the *`python3`* command for Python 3.*)  
+- **On Linux, verify installation using `python3 --version`.**  
+(*Linux systems typically use the `python3` command for Python 3.*)  
 - **On Linux, Python can be installed using a package manager such as apt.**  
-(*For Ubuntu-based systems, use a command like *`sudo apt install python3`* to install Python.*)  
+(*For Ubuntu-based systems, use a command like `sudo apt install python3` to install Python.*)  
 - **On macOS, Python may be pre-installed but could be outdated.**  
 (*macOS includes a system version of Python that may not be the latest stable release.*)  
 - **On macOS, install the latest Python using the .pkg installer from [python.org](http://python.org).**  
 (*Download the package file and follow the installation steps like regular software installation.*)  
-- **On macOS, verify installation using **`python3 --version`** in Terminal.**  
+- **On macOS, verify installation using `python3 --version` in Terminal.**  
 (*Open the Terminal application and type the command to check the installed version.*)  
 - **Python installation includes the IDLE editor by default.**  
 (*IDLE is a simple built-in editor that allows you to write and execute Python programs.*)  
@@ -114,9 +115,159 @@
 (*PATH is a system setting that tells the computer where Python is installed so it can be accessed from any directory.*)  
 - **Multiple Python versions can exist on the same system.**  
 (*You can install and manage different versions depending on project requirements.*)  
-- **Use the **`python3`** command when multiple versions are installed.**  
+- **Use the `python3` command when multiple versions are installed.**  
 (*This prevents confusion between older Python 2 and modern Python 3 versions.*)  
 - **After installation, Python can run in interactive mode.**  
-(*Typing *`python`* or *`python3`* in the terminal opens an interactive shell where you can execute code line by line.*)  
+(*Typing `python` or `python3` in the terminal opens an interactive shell where you can execute code line by line.*)  
 - **Python installation requires minimal system configuration.**  
-(*It is lightweight and easy to set up compared to many other programming languages.*)  
+(*It is lightweight and easy to set up compared to many other programming languages.*)
+
+---
+
+## **Python Interpreter vs Script Execution**
+
+- **Python is an interpreted language.**  
+(*It executes code using an interpreter instead of fully converting it into machine code before execution.*)
+
+```python
+print("Hello, World!")
+```
+
+- **The Python interpreter executes code line by line.**  
+(*It reads one statement, executes it, and then moves to the next statement sequentially.*)
+
+```python
+x = 5
+y = 10
+print(x + y)
+```
+
+- **The interpreter immediately reports errors during execution.**  
+(*If an error is found in a line, execution stops and an error message is displayed instantly.*)
+
+```python
+print(10 / 0)   # ZeroDivisionError
+```
+
+---
+
+- **Interactive mode is also known as REPL (Read, Evaluate, Print, Loop).**  
+(*Python reads your input, evaluates it, prints the result, and waits for the next command.*)
+
+```bash
+>>> 2 + 3
+5
+>>> name = "Python"
+>>> name
+'Python'
+```
+
+---
+
+- **Interactive mode is used for testing small code snippets.**  
+(*It is helpful for learning, experimenting, and performing quick calculations.*)
+
+```bash
+>>> 15 * 4
+60
+```
+
+---
+
+- **Interactive mode does not permanently store code.**  
+(*Once the session is closed, the written code is lost unless saved separately.*)
+
+```bash
+# Closing terminal removes previous session history
+```
+
+---
+
+- **Script execution means running Python code from a `.py` file.**  
+(*You write the complete program in a file and then execute it as a whole.*)
+
+```python
+# file: example.py
+print("This is a script file")
+```
+
+---
+
+- **Python script files use the `.py` extension.**  
+(*The `.py` extension indicates that the file contains Python source code.*)
+
+```bash
+example.py
+```
+
+---
+
+- **Script execution runs the entire file sequentially.**  
+(*Python executes all statements in the file from top to bottom.*)
+
+```python
+# file: demo.py
+print("Start")
+print("Middle")
+print("End")
+```
+
+---
+
+- **Scripts are executed using the command `python filename.py`.**  
+(*You run the program by specifying the file name in the terminal or command prompt.*)
+
+```bash
+python demo.py
+```
+
+---
+
+- **Code written in script files is permanently stored.**  
+(*You can edit, reuse, maintain, and share the program easily.*)
+
+```python
+# You can reopen and modify this file anytime
+```
+
+---
+
+- **Python internally compiles source code into bytecode.**  
+(*Before execution, Python converts code into an intermediate format called bytecode.*)
+
+```bash
+# Running a script may generate __pycache__ folder
+```
+
+---
+
+- **The Python Virtual Machine (PVM) executes bytecode.**  
+(*The PVM interprets and runs the bytecode to produce the final output.*)
+
+```text
+Source Code (.py) → Bytecode (.pyc) → Executed by PVM
+```
+
+---
+
+- **Interactive mode is mainly used for learning and debugging.**  
+(*Developers use it to quickly test logic before implementing it in full programs.*)
+
+```bash
+>>> for i in range(3):
+...     print(i)
+```
+
+---
+
+- **Script execution is used in real-world software development.**  
+(*Applications, automation scripts, backend systems, and large projects are executed as structured Python files.*)
+
+```python
+# app.py
+def main():
+    print("Application Running")
+
+if __name__ == "__main__":
+    main()
+```
