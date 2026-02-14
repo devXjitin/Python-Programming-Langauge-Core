@@ -11,33 +11,32 @@
 > - Indentation and code blocks
 > - Writing your first Python program
 
-> [!NOTE]
-> ## **What is Python? Use Cases & Ecosystem**
+## **What is Python? Use Cases & Ecosystem**
 
 - **Python is a high-level programming language.**  
-(*It is easy to read and write compared to low-level languages like C because it looks similar to English.*)
+(*It is easy to read and write compared to low-level languages like C because it looks similar to English.*)  
 - **Python is an interpreted language.**  
-(*Code runs line by line using an interpreter, so you do not need a separate compilation step before execution.*)
+(*Code runs line by line using an interpreter, so you do not need a separate compilation step before execution.*)  
 - **Python is a dynamically typed language.**  
-(*You do not need to declare the variable type like int or string; Python determines it automatically at runtime.*)
+(*You do not need to declare the variable type like int or string; Python determines it automatically at runtime.*)  
 - **Python is an object-oriented programming (OOP) language.**  
-(*Everything in Python is treated as an object, which helps in organizing, structuring, and reusing code efficiently.*)
+(*Everything in Python is treated as an object, which helps in organizing, structuring, and reusing code efficiently.*)  
 - **Python is a general-purpose language.**  
-(*It can be used in multiple domains such as web development, data science, AI, automation, and more.*)
+(*It can be used in multiple domains such as web development, data science, AI, automation, and more.*)  
 - **Python supports multiple programming paradigms.**  
-(*You can write code using procedural, object-oriented, or functional programming styles based on the requirement.*)
+(*You can write code using procedural, object-oriented, or functional programming styles based on the requirement.*)  
 - **Python has simple and clean syntax.**  
-(*Its structure avoids unnecessary symbols and makes programs easy to understand, especially for beginners.*)
+(*Its structure avoids unnecessary symbols and makes programs easy to understand, especially for beginners.*)  
 - **Python uses indentation to define code blocks.**  
-(*Instead of curly braces {}, Python uses proper spacing to identify the beginning and end of a block.*)
+(*Instead of curly braces {}, Python uses proper spacing to identify the beginning and end of a block.*)  
 - **Python is open-source and free.**  
-(*Anyone can download, use, and modify it without paying any licensing fee.*)
+(*Anyone can download, use, and modify it without paying any licensing fee.*)  
 - **Python follows a strong readability philosophy.**  
-(*Its design focuses on writing clear and understandable code for humans.*)
+(*Its design focuses on writing clear and understandable code for humans.*)  
 - **Python has a rich standard library.**  
-(*It provides built-in modules like math, random, os, and datetime, so many common tasks are already available.*)
+(*It provides built-in modules like math, random, os, and datetime, so many common tasks are already available.*)  
 - **Python has strong community support.**  
-(*A large global community contributes libraries, tutorials, documentation, and technical help.*)
+(*A large global community contributes libraries, tutorials, documentation, and technical help.*)  
 
 ---
 
@@ -124,9 +123,9 @@
 
 ---
 
-## **Python Interpreter vs Script Execution**
+## **Python Interpreter vs Script Execution**  
 
-- **Python is an interpreted language.**  
+**Python is an interpreted language.**  
 (*It executes code using an interpreter instead of fully converting it into machine code before execution.*)
 
 ```python
